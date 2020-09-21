@@ -1,0 +1,21 @@
+Para enviar o primeiro arquivo:
+
+$ git init 
+$git add doutor.jpg
+$ git commit -m "primeiro envio"
+$ git remote add origin https://github.com/Nitch3923/Aula.Photoshop.git
+$ git push -u origin master
+
+Para enviar o segundo arquivo:
+
+$ git branch -M master
+$ git add Mario.jpg
+$ git commit -m "segundo envio"
+$ git push -u origin master
+
+Para enviar o terceiro arquivo: 
+
+$ git branch -M master
+$ git add comandos.txt
+$ git commit -m "terceiro envio"
+$ git push -u origin master
